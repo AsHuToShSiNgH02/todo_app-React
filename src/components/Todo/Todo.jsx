@@ -12,7 +12,7 @@ function Todo({finishTodo, text, isFinished, deleteTodo,updateTodo}) {
             <button onClick={() => {
                 setIsEditting(!isEditting);
                 updateTodo(todoText);
-            }}> {(isEditting)? 'Save' : 'Edit'} </button>
+            }}> {(isEditting) ? 'Save' : 'Edit'} </button>
 
             <button onClick={deleteTodo}> Delete </button>
         </div>
